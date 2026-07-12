@@ -1,0 +1,8 @@
+module.exports = (req, res) => {
+  res.status(200).json({
+    title: 'Masa Lalu',
+    artist: 'Chaeroel',
+    src: '/assets/audio/track-1-fe85a8e4b3.mp3',
+    art: '/assets/images/vinyl-disc.png',
+  });
+};
